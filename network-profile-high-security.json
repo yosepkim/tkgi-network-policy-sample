@@ -1,0 +1,12 @@
+{
+    "name": "high-security-network-profile",
+    "description": "High Security Network Profile",
+    "parameters": {     
+        "cni_configurations": {
+            "type": "nsxt",
+            "parameters": {
+                "client_ssl_profile": "54adfc2b-4c56-46fd-bb8d-09f2ae36820b"
+            }
+        }
+    }
+}
